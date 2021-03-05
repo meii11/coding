@@ -13,3 +13,5 @@ void triplet(double number){
     number = number * number * number;
     printf("%f~~", number);
 }
+
+// 这里用%lf输入double值才行
