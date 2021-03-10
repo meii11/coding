@@ -9,3 +9,8 @@
 + putchar 因为是输出单个字符，因此要用单引号而不是双引号
 + 在我的运行环境下，初始化 char ch，会给ch赋值 Null
 + getchar 会逐个读入字符，例如23，它会读入2和3
++ while(getchar()!='\n'){continue;}  //跳过剩下字符，直到回车符号
++ 重定向中，可执行程序一定要在左边，> to   < get
++ C的标准I/O库把不同文件映射成统一的流来统一处理
+<!-- + 虽然ch定义成整形，但是如果是ch=getchar()后ch是字符型的。 -->
++ chars in C are integers. Unless EOF occurs, getchar() is defined to return "an unsigned char converted to an int" , so if it helps you can imagine that it reads some char, c, then returns (int)(unsigned char)c.
