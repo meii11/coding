@@ -39,7 +39,7 @@ int main(void)
 					word ++;	//count the number of the word you entered
 				}
 
-			if(!isalpha(ch)&&inword)		//judge words end
+			if(!isalpha(ch) && inword)		//judge words end
 				{
 					inword = false;
 					printf(" contains %d letters\n",num);
