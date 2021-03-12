@@ -14,3 +14,7 @@
 + C的标准I/O库把不同文件映射成统一的流来统一处理
 + chars in C are integers. Unless EOF occurs, getchar() is defined to return "an unsigned char converted to an int" , so if it helps you can imagine that it reads some char, c, then returns (int)(unsigned char)c.
 + putchar()输出的是字符型
++ %p 打印地址 printf("%p", &something)
++ return 只能返回一个值，若要返回多个值需要用指针返回
++ 通过 & 运算符访问地址，通过 * 运算符访问地址上的值（解引用）
++ asc2 65-90(A-Z) 97-122(a-z)

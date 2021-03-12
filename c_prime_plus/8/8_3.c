@@ -12,5 +12,5 @@ void main(){
             i_upper++;
         }
     }
-    printf("You have %d upper words and %d lower words.\n", i_upper,i_lower);
+    printf("You have %d upper words and %d lower words.\n", i_upper,i_lower)
 }

@@ -2,6 +2,8 @@
     "code-runner.runInTerminal": true,
     "files.associations": {
         "stdio.h": "c",
-        "ctype.h": "c"
+        "ctype.h": "c",
+        "cctype": "c",
+        "string.h": "c"
     }
 }
