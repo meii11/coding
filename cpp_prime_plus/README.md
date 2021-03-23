@@ -5,4 +5,6 @@
 + C++ requires main() to be of type int.
 + Release2.0 之后，c++将字符常量存储为char类型，而不是跟C一样，将字符常量存储为int类型 
 + 需要复习组成原理知识了
-+ int temp(2); int temp2 = 2; 两种赋值方式
++ int temp(2); int temp2 = 2; int temp3{2};
++ int 占4byte，即2^(-16)-1 ~ 2^16，-21亿~21亿
++ unsigned int 同样占4byte，但是范围从0~2^32，即0~42亿
