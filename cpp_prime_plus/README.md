@@ -8,3 +8,4 @@
 + int temp(2); int temp2 = 2; int temp3{2};
 + int 占4byte，即2^(-16)-1 ~ 2^16，-21亿~21亿
 + unsigned int 同样占4byte，但是范围从0~2^32，即0~42亿
++ cpp 的 cout 可以直接输出字符串数组 `cout << str_array;`
