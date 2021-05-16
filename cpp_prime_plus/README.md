@@ -28,3 +28,16 @@
 + 因为new分配的是动态地址，所以分配对象是指针
 + 结构数组必须一起初始化，分开初始化会报错
 + cin读取数字后，会将换行符留在输入队列中，因此如果后续有get等操作，需要提前使用cin.get() or cin.get(ch)跳过
+
+### chapter 5
++ cout 在显示bool值之前将它们转换为int，但 cout.setf(ios_base::boolalpha) 函数调用设置了一个标记，该标记命令cout显示true和false，而不是1和0。
++ cpp 表达式是值或值与运算符的组合，每个 cpp 表达式都有值。
++ using 声明: using std::cout;
++ using namespace std;
++ std::cout << xx;
++ string 定义的字符串，可以使用方括号的数组访问
++ 设计循环时的条件：1.指定循环终止的条件 2.在首次测试之前初始化条件 3.在条件被再次测试之前更新条件
++ typedef typename aliasName;
++ 读取字符值char，与读取其他基本类型一样，cin将忽略空格和换行符。并且发送给cin的输入将被缓冲，直到按下回车键后才被发送给程序
++ 检测到EOF后，cin将两位（eofbit and failbit）都设置为1，可以通过成员函数 cin.eof() or cin.fail() 来查看，即如果检测到eof返回true，否则返回false。平时用cin.eof()较多
++ 逗号运算符允许将两个表达式放到cpp句法只允许放一个表达式的地方。1. 他确保先计算第一个表达式，再计算第二个表达式（换句话说，逗号运算符是一个顺序点）。2. 其次，逗号表达式的值是第二部分的值。
