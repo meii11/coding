@@ -11,7 +11,7 @@ int main(){
     int i;
     for (i = 0; i < Max; i++){
         cout << "round #" << i+1 << ": ";
-        while(!(cin >> golf[i])){
+        while(!(cin >> golf[i])){  // 这里用if比较好其实
             cin.clear();
             while (cin.get() != '\n'){
                 continue;
