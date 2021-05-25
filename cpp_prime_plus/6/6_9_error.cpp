@@ -45,6 +45,7 @@ int main(){
         cout << endl << "Grand Patrons" << endl;
         for (int i = 0; i < indexGP.size(); i++){
             cout << member[indexGP.at(i)].name << ": " << member[indexGP.at(i)].funds << endl;
+            // cout << indexGP.at(i) << endl;
         }
         cout << "Patrons" << endl;
         for (int i = 0; i < indexP.size(); i++){
